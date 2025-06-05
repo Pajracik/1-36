@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Model Pudełkowy - HTML Zadanie</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 10px;
+        }
+        img {
+            max-width: 500px;
+            height: auto;
+            margin-top: 10px;
+        }
+        .opis {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <p class="opis">Model pudełkowy CSS definiuje każdy element HTML jako prostokątne pudełko złożone z zawartości, wewnętrznego wypełnienia (padding), ramki (border) i zewnętrznego marginesu, które razem określają jego wymiary i pozycjonowanie na stronie.</p>
+
+    <table>
+        <tr>
+            <th>Zawartość</th>
+            <th>Opis</th>
+        </tr>
+        <tr>
+            <td>content</td>
+            <td>Główna część elementu, np. tekst lub obraz.</td>
+        </tr>
+        <tr>
+            <td>padding</td>
+            <td>Odstępy między contentem a obramowaniem.</td>
+        </tr>
+        <tr>
+            <td>border</td>
+            <td>Obramowanie otaczające padding i content.</td>
+        </tr>
+        <tr>
+            <td>margin</td>
+            <td>Odstęp między elementem a sąsiadującymi elementami.</td>
+        </tr>
+    </table>
+
+    <p><strong>Uwaga 1:</strong> Całkowity rozmiar elementu to suma: szerokość/​wysokość contentu + padding + border + margin.</p>
+    <p><strong>Uwaga 2:</strong> Domyślnie przeglądarki nie wliczają paddingu i borderu do szerokości ustawionej w CSS, co można zmienić przez <code>box-sizing: border-box;</code>.</p>
+
+    <img src="csssss.png" alt="Model pudełkowy"><br>
+
+    <img src="csss.png" alt="Padding vs Margin">
+
+</body>
+</html>
